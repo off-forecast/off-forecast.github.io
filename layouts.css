@@ -1,10 +1,12 @@
 
 body {
-    width:80%;
-    padding:0;
     background-image: url("images/backgroundpattern.png");
     background-repeat: repeat-x;
     background-repeat: repeat-y;
+}
+content {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .eqi-container {
     display: flex;
