@@ -1,0 +1,110 @@
+
+body {
+    margin:0;
+    padding:0;
+    background-image: url("images/backgroundpattern.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+	
+.header-wrapper {
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+  z-index: 10;
+  background-color: #0099ff;
+  position: fixed;
+}
+.video-container{
+	text-align: center;
+	vertical-align: bottom;
+}
+.video{
+	padding-top:175px;
+	width: 1120px;
+	height: 640;
+	display: inline-block;
+} 
+
+.title-container{
+	text-align:center;
+	vertical-align:bottom;
+}
+.title{
+	padding-top:140px;
+	width:1120px;
+	height:640;
+	display:inline-block;
+}
+.content {
+	padding-top:175px;
+	width: 90%;
+    width: 1040;
+} 	
+a {
+	color: #999999;
+	text-decoration: none;
+}
+h1 {
+	padding-top:20px;
+	text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    color: black;
+	text-decoration: none;
+    size: 200%;
+}
+p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    color: black;
+    size: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #0099ff;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0066cc;
+}
+li.dropdown {
+    display: inline-block;
+	position: center;
+	z-index: 1;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #c9c9c9}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
