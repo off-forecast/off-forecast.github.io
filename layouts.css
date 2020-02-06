@@ -1,20 +1,13 @@
 
 body {
-    background-image: url("images/backgroundpattern.png");
-    background-repeat: repeat-y;
-}
-body2 {
-    background-image: url("images/backgroundpattern.png");
-    align-content: right;
-    background-repeat: repeat-y;
-}
-content {
     margin-left: 30px;
     margin-right: 30px;
 }
+
 .eqi-container {
     display: flex;
     justify-content: space-between;
+    vertical-align: center;
 }
 .eqi-container div {
     width: 50px;
@@ -24,6 +17,7 @@ content {
   width: 100%;
   top: 0;
   left: 0;
+  align-items: center;
   align-content: center;
   z-index: 10;
   background-color: #0099ff;
@@ -33,7 +27,7 @@ content {
 	vertical-align: bottom;
 }
 .video{
-	padding-top:175px;
+	padding-top:20px;
 	width: 1120px;
 	height: 640;
 	display: inline-block;
