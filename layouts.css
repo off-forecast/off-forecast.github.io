@@ -1,5 +1,7 @@
 
 body {
+    margin-left: 10%;
+    margin-right: 10%;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -17,6 +19,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  position: fixed;
   align-items: center;
   align-content: center;
   z-index: 10;
