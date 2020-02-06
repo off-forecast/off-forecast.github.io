@@ -17,8 +17,11 @@ body {
 }	
 .header-wrapper {
   width: 100%;
-  text-align: center;
   vertical-align: top;
+  position: fixed;
+  align-items: center;
+  align-content: center;
+  text-align: center;
   z-index: 10;
   background-color: #0099ff;
   position: fixed;
