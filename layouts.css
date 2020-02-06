@@ -17,13 +17,13 @@ body {
 }	
 .header-wrapper {
   width: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+  vertical-align: top;
   z-index: 10;
   background-color: #0099ff;
+  position: fixed;
+  top:0;
+  left:0;
 }
 .video-container{
 	text-align: center;
