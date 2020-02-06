@@ -2,7 +2,11 @@
 body {
     background-image: url("images/backgroundpattern.png");
     background-repeat: repeat-x;
-    background-repeat: repeat-y;
+}
+body2 {
+    background-image: url("images/backgroundpattern.png");
+    align-self: right;
+    background-repeat: repeat-x;
 }
 content {
     margin-left: 30px;
