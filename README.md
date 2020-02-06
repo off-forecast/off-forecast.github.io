@@ -1,2 +1,1 @@
-# off-forecast.github.io
-Off Forecast team website
+This is the HTML and CSS for off-forecast.org, the Off Forecast team's website.
