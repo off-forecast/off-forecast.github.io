@@ -22,8 +22,6 @@ content {
 }	
 .header-wrapper {
   width: 100%;
-  text-align: center;
-  vertical-align: top;
   z-index: 10;
   background-color: #0099ff;
 }
