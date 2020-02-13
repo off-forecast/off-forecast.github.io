@@ -34,11 +34,37 @@
 <p>We took to the streets to find out some reasons. We asked people - tourists, residents, and people being affected by the crisis and are homeless - about their opinions, their thoughts, and what they think must be done.</p>
 <p>Currently, we've finished an intro and are working on getting the authentic experiences of people hit hardest by the tech boom.</p>
 
-<div class = "video-container">
-    <div class = "video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7cNQ1y32y0w" frameborder="0" align="center" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+<script type="text/javascript">
+
+  function activateTab(pageId) {
+      var tabCtrl = document.getElementById('tabCtrl');
+      var pageToActivate = document.getElementById(pageId);
+      for (var i = 0; i < tabCtrl.childNodes.length; i++) {
+          var node = tabCtrl.childNodes[i];
+          if (node.nodeType == 1) { /* Element */
+              node.style.display = (node == pageToActivate) ? 'block' : 'none';
+          }
+      }
+  }
+
+</script>
+</head>
+<body>
+<ul>
+  <li>
+    <a href="javascript:activateTab('page1')">Introduction</a>
+  </li>
+  <li>
+    <a href="javascript:activateTab('page2')">La Mission</a>
+  </li>
+  ...
+</ul>
+<div id="tabCtrl">
+  <div id="page1" style="display: block;"><iframe width="560" height="315" src="https://www.youtube.com/embed/7cNQ1y32y0w" frameborder="0" align="center" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div id="page2" style="display: none;"><iframe width="560" height="315" src="https://www.youtube.com/embed/UZ6_p8-UkxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  ...
 </div>
+
 <br><br>
 <div class="eqi-container">
   <div> </div>
